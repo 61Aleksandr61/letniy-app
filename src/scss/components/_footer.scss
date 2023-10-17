@@ -1,0 +1,57 @@
+.footer {
+    height: 123px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-logo {
+    margin-top: 30px;
+    margin-right: 77px;
+}
+
+.footer-social {
+    margin-top: 33px;
+    padding-right: 82px;
+    padding-left: 38px;
+}
+
+.footer-social p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0;
+}
+
+.footer-social-icon {
+    margin-top: 7px;
+}
+
+.footer-social-icon a {
+    margin-right: 21px;
+}
+
+.confidentiality {
+    margin-top: 37px;
+    margin-left: 67px;
+}
+
+.confidentiality p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0 0 7px;
+}
+
+.footer-phones {
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+.footer-phones a {
+    color: #000;
+    font-size: 24px;
+    line-height: 149%;
+}

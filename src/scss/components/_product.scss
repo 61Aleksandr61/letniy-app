@@ -1,0 +1,60 @@
+.product {
+    padding: 80px 0 200px;
+    display: flex;
+}
+
+.product__img {
+    padding: 109px 0;
+    width: 64%;
+    text-align: center;
+    border-radius: 10px;
+    background: #F7F9FA;
+}
+
+.product-info {
+    padding-left: 65px;
+}
+
+.product-info__title {
+    margin-bottom: 19px;
+}
+
+.product-info__title h3 {
+    margin: 0 0 12px;
+    font-weight: 600;
+    line-height: 129%;
+}
+
+.product-info__title p {
+    opacity: 0.5;
+}
+
+.product-info-data {
+    padding: 24px 0;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.product-info-data p {
+    line-height: 149%;
+}
+
+.product-description {
+    margin-left: 10px;
+    color: #00A7B3;
+    line-height: 149%
+}
+
+.product-info__price {
+    margin: 24px 0;
+}
+
+.product-info__price p {
+    line-height: 149%;
+    opacity: 0.5;
+}
+
+.product-info__sum {
+    font-size: 24px;
+    line-height: 149%;
+}

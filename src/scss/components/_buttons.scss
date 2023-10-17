@@ -1,0 +1,26 @@
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-green {
+    margin-right: 15px;
+    background-color: #00A7B3;
+    width: 240px;
+    padding: 20px 0;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    
+    &:hover {
+        background-color: #0DBCC9;
+    }
+
+    &:active {
+        background-color: #029FAA;
+    }
+}
