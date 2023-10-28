@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/letniy-app/static/css/main.23f80ec9.css",
+    "main.js": "/letniy-app/static/js/main.b8191265.js",
+    "static/js/787.22c6d35b.chunk.js": "/letniy-app/static/js/787.22c6d35b.chunk.js",
+    "static/media/banner.jpg": "/letniy-app/static/media/banner.50ce2f591f934a96484e.jpg",
+    "static/media/happy-family.png": "/letniy-app/static/media/happy-family.5c632ca4174463cc9dfe.png",
+    "static/media/drawing-card.png": "/letniy-app/static/media/drawing-card.8562db0354cbdd803b86.png",
+    "static/media/drawing.png": "/letniy-app/static/media/drawing.52675da1037d1a561f78.png",
+    "static/media/logo.svg": "/letniy-app/static/media/logo.03cc68777632f77739d64d57a9190bce.svg",
+    "static/media/telegram.svg": "/letniy-app/static/media/telegram.12fca82048133b54e87e9df8722db038.svg",
+    "static/media/building_icon.svg": "/letniy-app/static/media/building_icon.85616fad94b070e7ea7f4adabb26d6a2.svg",
+    "static/media/design-icon.svg": "/letniy-app/static/media/design-icon.05a57d5e9c1aa1cfedc95e89d943e22c.svg",
+    "static/media/youtube.svg": "/letniy-app/static/media/youtube.e35a805ba533fd56edc30d45a75aeb80.svg",
+    "static/media/ok.svg": "/letniy-app/static/media/ok.3d6062780540dc228af2167dbd4ab59f.svg",
+    "static/media/vk.svg": "/letniy-app/static/media/vk.4078ff848081b35440da187b20f36a08.svg",
+    "static/media/house_icon.svg": "/letniy-app/static/media/house_icon.23e257ace4de6bc350166d128379b280.svg",
+    "static/media/map-icon.svg": "/letniy-app/static/media/map-icon.1b39958e56d17defab21787a4603be24.svg",
+    "static/media/sun-icon.svg": "/letniy-app/static/media/sun-icon.81c2d043a7aac5c5b35859c47de74bc0.svg",
+    "static/media/yandex.svg": "/letniy-app/static/media/yandex.a1e570db2a54fba9c166d9b612532f00.svg",
+    "static/media/time-icon.svg": "/letniy-app/static/media/time-icon.ca0277244402ce4172a50b0e2a807ea8.svg",
+    "static/media/beach-icon.svg": "/letniy-app/static/media/beach-icon.6e4aff4dae1df5e88831924b3ad079b8.svg",
+    "index.html": "/letniy-app/index.html",
+    "main.23f80ec9.css.map": "/letniy-app/static/css/main.23f80ec9.css.map",
+    "main.b8191265.js.map": "/letniy-app/static/js/main.b8191265.js.map",
+    "787.22c6d35b.chunk.js.map": "/letniy-app/static/js/787.22c6d35b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23f80ec9.css",
+    "static/js/main.b8191265.js"
+  ]
+}
