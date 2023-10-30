@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import Logo from '../img/logo.svg'
 
 const Header = () => {
@@ -14,19 +14,19 @@ const Header = () => {
                     <div className="navigation">
                         <ul className="navigation__list">
                             <li className="navigation__item">
-                                <Link to={"#"} className="navigation__link link">Главная</Link>
+                                <NavLink to={"/"} className="navigation__link link">Главная</NavLink>
                             </li>
                             <li className="navigation__item">
-                                <Link to={"#"} className="navigation__link link">Акции</Link>
+                                <NavLink to={"/apartments?type=flat"} className="navigation__link link">Квартиры</NavLink>
                             </li>
+                            <li className="navigation__item">
+                                <NavLink to={"/catalog?type=all"} className="navigation__link link">Подборка квартир</NavLink>
+                            </li>
+                            {/*<li className="navigation__item">*/}
+                            {/*    <Link to={"#"} className="navigation__link link">Акции</Link>*/}
+                            {/*</li>*/}
                             <li className="navigation__item">
                                 <Link to={"#"} className="navigation__link link">О нас</Link>
-                            </li>
-                            <li className="navigation__item">
-                                <Link to={"#"} className="navigation__link link">Квартиры</Link>
-                            </li>
-                            <li className="navigation__item">
-                                <Link to={"#"} className="navigation__link link">Подборка квартир</Link>
                             </li>
                             <li className="navigation__item">
                                 <Link to={"#"} className="navigation__link link">Контакты</Link>

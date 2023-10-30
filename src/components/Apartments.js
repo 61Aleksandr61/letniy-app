@@ -90,10 +90,18 @@ const Apartments = () => {
     }, [])
 
     useEffect(() => {
+        let type = apartmentsType.find(item => item.value == searchParams.get("type"))
+        if(type) {
+            setSelectedType(type)
+        }
+    }, [searchParams.get("type")] )
+
+    useEffect(() => {
         let result = refData.current
         if(selectedType && selectedType.value != "all") {
             result = refData.current.filter(apartment => apartment.type == searchParams.get("type"))
         }
+        console.log(result)
         if(selectedRoominess && selectedRoominess.value != "all") {
             result = result.filter(apartment => apartment.rooms == selectedRoominess.value)
         }
@@ -222,18 +230,18 @@ const Apartments = () => {
                                 />
                             </div>
                         </div>
-                        <div className="select-filters">
-                            <p className="text-md-14">Этажи</p>
-                            <div className="filter-number-floors">
-                                <div className="row">
-                                    {floors.map((floor) => (
-                                        <div className="col-2" key={floor}>
-                                            <button className="btn floor-selection">{floor}</button>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
+                        {/*<div className="select-filters">*/}
+                        {/*    <p className="text-md-14">Этажи</p>*/}
+                        {/*    <div className="filter-number-floors">*/}
+                        {/*        <div className="row">*/}
+                        {/*            {floors.map((floor) => (*/}
+                        {/*                <div className="col-2" key={floor}>*/}
+                        {/*                    <button className="btn floor-selection">{floor}</button>*/}
+                        {/*                </div>*/}
+                        {/*            ))}*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
