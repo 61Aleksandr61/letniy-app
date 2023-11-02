@@ -38,3 +38,58 @@
     font-weight: 600;
     line-height: 149%
 }
+
+@media (max-width: 1355px) {
+    .offer__discount {
+        padding-left: 60px;
+    }
+
+    .offer__discount h3 {
+        font-size: 25px;
+    }
+
+    .text-md {
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 991px) {
+    .offer__discount {
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .offer-container {
+        padding: 60px 0;
+        display: block;
+    }
+
+    .offer__img {
+        width: 100%;
+        max-width: 100%;
+        padding: 40px;
+    }
+
+    .offer__discount {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 479px) {
+    .offer__discount h3 {
+        font-size: 20px;
+    }
+
+    .offer__discount .text-md {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .offer-catalog p {
+        font-size: 18px;
+    }
+}
